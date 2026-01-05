@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bottom Navigation Menu
+     This file defines the 3 buttons shown in the bottom navigation bar
+     Each item has:
+     - id: unique identifier
+     - icon: the image shown on the button
+     - title: the text label under the icon
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Menu button - loads MenuFragment -->
+    <item
+        android:id="@+id/nav_menu"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Menu" />
+
+    <!-- Order button - loads OrderFragment -->
+    <item
+        android:id="@+id/nav_order"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Order" />
+
+    <!-- Profile button - loads ProfileFragment -->
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Profile" />
+
+</menu>

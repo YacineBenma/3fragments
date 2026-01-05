@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Profile Fragment Layout
+     This shows user profile information
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E3F2FD">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1565C0"
+        android:gravity="center"
+        android:layout_marginBottom="30dp" />
+
+    <!-- Profile icon placeholder -->
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="👤"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- User info -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: John Doe"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: john@example.com"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone: +123 456 7890"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:background="#FFFFFF"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/tv_order_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orders placed: 0"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:background="#FFFFFF" />
+
+</LinearLayout>

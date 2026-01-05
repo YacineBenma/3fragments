@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Menu Fragment Layout - Updated with individual Add buttons -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFF3E0">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pizza Menu"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#D84315"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Pizza 1 - Margherita -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🍕 Margherita - €8"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_add_margherita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Pizza 2 - Pepperoni -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🍕 Pepperoni - €10"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_add_pepperoni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Pizza 3 - Hawaiian -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="🍕 Hawaiian - €9"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_add_hawaiian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
